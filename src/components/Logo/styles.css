@@ -1,0 +1,7 @@
+.containerLogo {
+  cursor: pointer;
+}
+
+.containerLogo img {
+  width: 160px;
+}

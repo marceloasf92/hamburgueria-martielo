@@ -1,0 +1,68 @@
+.containerProdutosCarrinho:first-child {
+  margin-top: 21px;
+}
+
+.containerProdutosCarrinho {
+  display: flex;
+  justify-content: space-between;
+  width: 343px;
+  margin-bottom: 21px;
+  background-color: #f5f5f5;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.containerProdutosCarrinho figure {
+  background: #e0e0e0;
+  border-radius: 5px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerProdutosCarrinho figure img {
+  width: 70px;
+  height: 70px;
+}
+
+.containerProdutosCarrinho div {
+  width: 170px;
+}
+
+.containerProdutosCarrinho div h2 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.containerProdutosCarrinho div p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #828282;
+}
+
+.containerProdutosCarrinho button {
+  display: flex;
+  color: #bdbdbd;
+  background-color: #f5f5f5;
+  border: none;
+  height: 15px;
+  cursor: pointer;
+}
+
+.containerProdutosCarrinho button:hover {
+  color: #333333;
+  text-decoration-line: underline;
+}
+
+.removerTodos {
+  margin-bottom: 20px;
+}

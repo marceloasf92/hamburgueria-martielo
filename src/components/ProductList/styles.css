@@ -1,0 +1,31 @@
+main ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-top: 15px;
+  margin-left: 16px;
+  margin-bottom: 20px;
+}
+
+.listaProdutosScroll {
+  overflow-x: scroll;
+}
+
+.listaProdutosScroll::-webkit-scrollbar {
+  width: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  main ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .listaProdutosScroll {
+    overflow-x: hidden;
+  }
+  .listaProdutosScroll li {
+    margin-bottom: 12px;
+  }
+}
